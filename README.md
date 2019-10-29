@@ -16,7 +16,7 @@ https://evandro-slv.firebaseapp.com/
 
 ![Screenshot_20191028-213313](https://user-images.githubusercontent.com/1840605/67728195-148d6980-f9cb-11e9-9713-7ee40b143042.png | width=100)
 
-![Screenshot_20191028-213438](https://user-images.githubusercontent.com/1840605/67728198-15260000-f9cb-11e9-8bad-9b4f6ebfd89b.png | width=100)
+![Screenshot_20191028-213438](https://user-images.githubusercontent.com/1840605/67728198-15260000-f9cb-11e9-8bad-9b4f6ebfd89b.png){:width="200px"}
 
 #### Running
 
