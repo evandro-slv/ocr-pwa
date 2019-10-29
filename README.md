@@ -6,6 +6,13 @@ This app was created with:
 - PWA workbox
 - Material Web Components
 
+#### Running
+
+To run the application, install the dependencies then run with npm:
+
+    npm install
+    npm run start
+
 #### Live demo
 
 https://evandro-slv.firebaseapp.com/
@@ -17,10 +24,3 @@ https://evandro-slv.firebaseapp.com/
 <img src="https://user-images.githubusercontent.com/1840605/67728195-148d6980-f9cb-11e9-9713-7ee40b143042.png" width=300 align=left>
 
 <img src="https://user-images.githubusercontent.com/1840605/67728198-15260000-f9cb-11e9-8bad-9b4f6ebfd89b.png" width=300 align=left>
-
-#### Running
-
-To run the application, install the dependencies then run with npm:
-
-    npm install
-    npm run start
