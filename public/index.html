@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OCR</title>
+
+  <meta name="viewport" content="width=500, initial-scale=1">
+  <link rel="manifest" href="/manifest.json">
+
+  <script src='./tesseract.min.js'></script>
+
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <style>
+    html, body {
+      font-family: Roboto, sans-serif;
+      background-color: aliceblue;
+    }
+  </style>
+</head>
+<body>
+<div class="mdc-card demo-card">
+  <div>
+    <div role="progressbar" class="loading-bar mdc-linear-progress mdc-linear-progress--indeterminate">
+      <div class="mdc-linear-progress__buffering-dots"></div>
+      <div class="mdc-linear-progress__buffer"></div>
+      <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+        <span class="mdc-linear-progress__bar-inner"></span>
+      </div>
+      <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+        <span class="mdc-linear-progress__bar-inner"></span>
+      </div>
+    </div>
+<!--    <img class="preview" src="" alt="" style="max-width: 100%; display: block; margin: 30px 0">-->
+
+    <div class="content" tabindex="0" style="padding: 10px;">
+      <div class="placeholder" style="padding: 20px; margin: 10px; text-align: center; border: 2px dashed #ddd;">
+        Paste clipboard content here
+      </div>
+
+      <img class="preview mdc-card__media mdc-card__media--16-9 demo-card__media" style="display: block; margin: 20px auto; max-width: 100%;" />
+
+      <input type="file" id="upload-file" />
+    </div>
+    <pre class="content" id="result" cols="30" rows="10" style="width: 100%; border: none; background-color: white; margin: 10px 15px;"></pre>
+  </div>
+  <div class="content mdc-card__actions">
+    <div class="mdc-card__action-buttons">
+      <div class="mdc-form-field">
+        <div class="mdc-checkbox">
+          <input type="checkbox"
+                 class="mdc-checkbox__native-control"
+                 id="remove-spaces"/>
+          <div class="mdc-checkbox__background">
+            <svg class="mdc-checkbox__checkmark"
+                 viewBox="0 0 24 24">
+              <path class="mdc-checkbox__checkmark-path"
+                    fill="none"
+                    d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+            </svg>
+            <div class="mdc-checkbox__mixedmark"></div>
+          </div>
+        </div>
+        <label for="remove-spaces">Remove spaces</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./ocr.js"></script>
+</body>
+</html>
