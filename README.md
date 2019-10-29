@@ -14,9 +14,9 @@ https://evandro-slv.firebaseapp.com/
 
 #### Android Installed PWA
 
-![Screenshot_20191028-213313](https://user-images.githubusercontent.com/1840605/67728195-148d6980-f9cb-11e9-9713-7ee40b143042.png | width=100)
+<img src="https://user-images.githubusercontent.com/1840605/67728195-148d6980-f9cb-11e9-9713-7ee40b143042.png" width=300 align=left>
 
-![Screenshot_20191028-213438](https://user-images.githubusercontent.com/1840605/67728198-15260000-f9cb-11e9-8bad-9b4f6ebfd89b.png){:width="200px"}
+<img src="https://user-images.githubusercontent.com/1840605/67728198-15260000-f9cb-11e9-8bad-9b4f6ebfd89b.png" width=300 align=left>
 
 #### Running
 
